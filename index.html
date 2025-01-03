@@ -1,543 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-</head>
-<body class="main-content">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="https://i.ibb.co/hFVw75r/hero.gif" alt="hero" border="0">
-                </div>
-            </div>
-            <div class="right-header">
-                <h1 class="name">
-                    Hi, I'm <span>RAKSHA SRI A.</span>
-                    A Curious Creator..
-                </h1>
-                <p>
-                    I am an aspiring problem solver and innovator with a strong passion for 
-					web and app development, as well as Python and machine learning projects.
-					I have a track record of actively contributing to various projects in these 
-					domains. My dedication to continuous learning and commitment to achieving 
-					excellence drive my pursuit of creating solutions that address real-world 
-					challenges and provide value to users.
-                </p>
-               
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Raksha Sri A Portfolio - Skilled in Web Development, Machine Learning, and Python."
+    />
+    <meta name="keywords" content="Portfolio, Web Development, Machine Learning, Python" />
+    <meta property="og:title" content="Raksha Sri A Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore the portfolio of Raksha Sri A, a talented developer skilled in Machine Learning, Python, and more."
+    />
+    <meta property="og:image" content="./assets/png/raksha-sri-a.jpeg" />
+    <meta property="og:url" content="https://raksha-portfolio.com" />
+
+    <title>Raksha Sri A Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/raksha-sri-a.jpeg"
+              alt="Raksha Sri A Logo"
+              class="header__logo-img"
+              loading="lazy"
+            />
+          </div>
+          <span class="header__logo-sub">Raksha Sri A</span>
         </div>
+        <nav class="header__main">
+          <ul class="header__links" role="navigation">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link" aria-label="Home">Home</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link" aria-label="About">About</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link" aria-label="Projects">Projects</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link" aria-label="Contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
-            </div>
-            <div class="about-container">
-                <div class="left-about">
-                    <h4>Information About me</h4>
-                    <p>
-                        I am an undergraduate student pursuing a degree in
-						Computer Science and Engineering in C.Abdul Hakeem College of Engineering And Technology, driven by a strong
-						passion for the creative world of web and app design,
-						as well as 3D modeling. With a background in Photoshop
-						and hands-on experience in Flutter app development and
-						machine learning projects, I am eager to explore the
-						intersection of technology and creativity. <br /> <br />My academic journey, combined with practical project work,
-						has provided me with a well-rounded foundation for designing
-						and developing innovative digital solutions. I am committed
-						to honing my skills and knowledge to excel in the fields
-						of web and app development and 3D modeling while leveraging my
-						technological expertise to bring creative ideas to life.
-                    </p>
-                   
-                </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">5+</p>
-                            <p class="small-text">Projects <br /> Completed</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">2+</p>
-                            <p class="small-text">Years of <br /> experience</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">html5</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">css3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">50%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">40%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                  <!--  <div class="progress-bar">
-                        <p class="prog-title">ReactJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="react"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">NodeJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">87%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>-->
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h4 class="stat-title">My Timeline</h4>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2023 july - present</p>
-                    <h5>Developer Intern<span> - IndWorks</span></h5>
-                    <p>
-                        During my internship experience, I had the opportunity to delve
-						into the world of web development with a primary focus on WordPress.
-						I honed my skills in creating and customizing websites,
-						gaining expertise in this widely-used content management system.
-						In parallel, I also ventured into app development using Flutter,
-						enabling me to create cross-platform mobile applications efficiently
-                    </p>
-                </div>
-               <!-- <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2008 - 2011</p>
-                    <h5>Software Engineer<span> - Boogle, Inc.</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2016 - 2017</p>
-                    <h5>C++ Programmer<span> - Slime Tech</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2009 - 2013</p>
-                    <h5>Business Degree<span> - Sussex University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div> -->
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2021 - present</p>
-                    <h5>Computer Science and Engineering Degree<span> - Anna University</span></h5>
-                    <p>
-                        I am currently pursuing my Bachelor's degree in
-						Computer Science and Engineering with a strong academic record,
-						maintaining a CGPA of 8.7. This educational journey has provided me
-						with a robust foundation in computer science, encompassing a wide
-						range of subjects and practical skills.
-						Throughout my studies, I have continuously strived for excellence,
-						consistently achieving high academic performance
-                    </p>
-                </div>
-               <!-- <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2017 - present</p>
-                    <h5>3d Animation<span> - Brighton University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>-->
-            </div>
-        </section>
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
-            </div>
-            <p class="port-text">
-                Here is some of my work that I've done in various programming languages.
-            </p>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="https://i.ibb.co/44VnZPr/port1.jpg" alt="port1" border="0">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Hand Gesture MSP</h3>
-                        <div class="icons">
-                            <a href="https://github.com/RAKSHASRIA/Hand-gesture-msp.git" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="https://i.ibb.co/sPP0sPQ/port2.jpg" alt="port2" border="0">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Todo-App</h3>
-                        <div class="icons">
-                            <a href="https://github.com/RAKSHASRIA/to-do-list.git" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="https://i.ibb.co/qjLKJXz/port3.jpg" alt="port3" border="0">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Tourism Simple infosite </h3>
-                        <div class="icons">
-                            <a href="https://github.com/RAKSHASRIA/tourism-infosite.git" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port4.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port5.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port2.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port7.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </section>
-      <!-- <section class="container" id="blogs">
-            <div class="blogs-content">
-                <div class="main-title">
-                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
-                </div>
-                <div class="blogs">
-                    <div class="blog">
-                        <img src="img/port6.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                How to Create Your Own Website
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                How to Become an Expert in Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog2.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Become a Web Designer in 10 Days
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Debbuging made easy with Web Inspector
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Get started with Web Design and UI Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                This is what you need to know about Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
-                </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Contact me here</h4>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Location</span>
-                                </div>
-                                <p>
-                                    : TamilNadu, India
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email</span>
-                                </div>
-                                <p>
-                                    <span>: jimira7sarange@gmail.com</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Education</span>
-                                </div>
-                                <p>
-                                    <span>: Anna University, Chennai</span>
-                                </p>
-                            </div>
-                            <!--<div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Mobile Number</span>
-                                </div>
-                                <p>
-                                    <span>: 07522670617</span>
-                                </p>
-                            </div> -->
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-africa"></i>
-                                    <span>Languages</span>
-                                </div>
-                                <p>
-                                    <span>: English, Tamil, Hindi</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.facebook.com/profile.php?id=100093529757347&mibextid=ZbWKwL" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/raksha-sri-237743250/" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="https://github.com/RAKSHASRIA" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
 
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="right-contact">
-                        <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
-                            </div>
-                            <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                            </div>
-                            <div type="submit" class="main-btn">
-                                  <span class="btn-text">Submit</span>
-								  </span>
-                                  
-						    </div>
-							<div>
-                                <a href="#" class="main-btn">
-                                    <span class="btn-text">Download CV</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
-                                </a>
-                            </div>
-                        </form>
-                    </div> -->
-                </div>
-            </div>
-        </section>
-    </main>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hi, I'm Raksha Sri A</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            A passionate Computer Science and Engineering student skilled in Frontend Development, Machine Learning, and crafting user-friendly digital solutions.
+          </p>
+        </div>
+       <!-- In the Projects section -->
+<div class="home-hero__cta">
+  <a href="#projects" class="btn btn--bg">Scroll Down</a> <!-- Changed from View Projects to Scroll Down -->
+</div>
 
-    <div class="controls">
-        <div class="control active-btn" data-id="home" >
-            <i class="fas fa-home"></i>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://github.com/RAKSHASRIA" class="home-hero__social-icon-link" target="_blank">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="GitHub Icon"
+              class="home-hero__social-icon"
+            />
+          </a>
         </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/raksha-sri-a-237743250" class="home-hero__social-icon-link" target="_blank">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="LinkedIn Icon"
+              class="home-hero__social-icon"
+            />
+          </a>
         </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
+      </div>
+    </section>
+
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Passionate about solving real-world problems through Machine Learning and Data Science.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Who Am I?</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hi, I’m <strong>Raksha Sri A</strong>, a Computer Science and Engineering student with a GPA of 8.87. My journey in Machine Learning started with a fascination for turning data into actionable insights.
+              </p>
+              <p class="about__content-details-para">
+                I specialize in building end-to-end ML models and crafting innovative solutions. Currently, I’m focused on enhancing local air quality monitoring using satellite data and creating user-friendly AI-driven systems. My future goal is to contribute to impactful projects in healthcare, climate change, and automation.
+              </p>
+            </div>
+            <a href="./index.html#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Machine Learning</div>
+              <div class="skills__skill">Deep Learning (TensorFlow, PyTorch)</div>
+              <div class="skills__skill">Data Visualization (Matplotlib, Seaborn)</div>
+              <div class="skills__skill">Statistical Modeling</div>
+              <div class="skills__skill">Algorithms and Data Structures</div>
+              <div class="skills__skill">Cloud Computing (AWS, GCP)</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Git</div>
+            </div>
+          </div>
         </div>
-       <!-- <div class="control" data-id="blogs">
-            <i class="far fa-newspaper"></i>
-        </div> -->
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
+      </div>
+    </section>
+
+    <section id="projects" class="projects sec-pad">
+  <div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-bg">
+      <span class="heading-sec__main">Projects</span>
+      <span class="heading-sec__sub">
+        A collection of my Machine Learning and Data Science projects.
+      </span>
+    </h2>
+    <!-- Sliding Window Container -->
+    <div class="slider-container">
+      <div class="slider-wrapper">
+        <!-- Slide 1 -->
+        <div class="slide">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/hand-gesture-music-player.jpg"
+                alt="Hand Gesture Music Player"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                Hand Gesture Music Player
+              </h3>
+              <p class="projects__row-content-desc">
+                Built an innovative system that uses OpenCV and gesture
+                recognition to control music playback, enhancing accessibility
+                and user interaction.
+              </p>
+              <a href="<https://github.com/RAKSHASRIA/Hand-Gesture-Music-player.git>" target="_blank" class="btn btn--theme">View Project</a>
+            </div>
+          </div>
         </div>
+ <!-- Slide 2 -->
+        <div class="slide">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="D:\Dopefolio-main\assets\png\motion.png"
+                alt="MotionPitcher"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                MotionPitcher-Text-to-Video
+              </h3>
+              <p class="projects__row-content-desc">
+                MotionPitcher: An AI-driven platform that transforms text descriptions into dynamic video content.
+              </p>
+              <a href="<https://github.com/RAKSHASRIA/MotionPitcher-Diffuser_model.git>" target="_blank" class="btn btn--theme">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="slide">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/todo-app.jpg"
+                alt="To-do App"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+               To-do App
+              </h3>
+              <p class="projects__row-content-desc">
+               ToDo App: A simple and efficient task management tool for organizing daily activities.
+              </p>
+              <a href="<https://github.com/RAKSHASRIA/to-do-list.git>" target="_blank" class="btn btn--theme">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation Buttons -->
+      <button class="nav-btn prev-btn">⟨</button>
+      <button class="nav-btn next-btn">⟩</button>
     </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
-    <script src="app.js"></script>
-</body>
+  </div>
+</section>
+
+<style>
+/* Slider Styles */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 50%; /* Show two slides at a time */
+  box-sizing: border-box;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+</style>
+
+<script>
+  // Slider Functionality
+  const sliderWrapper = document.querySelector('.slider-wrapper');
+  const slides = document.querySelectorAll('.slide');
+  const prevBtn = document.querySelector('.prev-btn');
+  const nextBtn = document.querySelector('.next-btn');
+
+  let currentIndex = 0;
+
+  function updateSliderPosition() {
+    sliderWrapper.style.transform = `translateX(-${currentIndex * 50}%)`;
+  }
+
+  prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 2;
+    updateSliderPosition();
+  });
+
+  nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex < slides.length - 2) ? currentIndex + 1 : 0;
+    updateSliderPosition();
+  });
+</script>
+
+
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Let’s collaborate or discuss opportunities!
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form id="contactForm">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input type="text" class="contact__form-input" name="name" id="name" required />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input type="email" class="contact__form-input" name="email" id="email" required />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                class="contact__form-input"
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
